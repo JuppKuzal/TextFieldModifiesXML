@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03 pain.001.001.03 pain.001.001.03.xsd">
+    <CstmrCdtTrfInitn>                                                         
+      <GrpHdr>                                                                 
+        <MsgId>MSG1489488386086</MsgId>                                        
+        <CreDtTm>2018-03-16T10:14:46.086+01:00</CreDtTm>                       
+        <NbOfTxs>1</NbOfTxs>                                                   
+        <InitgPty>                                                             
+          <Nm>Kousal-Eins, Josef</Nm>               
+        </InitgPty>                                                            
+      </GrpHdr>                                                                
+      <PmtInf>                                                                 
+        <PmtInfId>NOTPROVIDED</PmtInfId>                                       
+        <PmtMtd>TRF</PmtMtd>  
+        <NbOfTxs>1</NbOfTxs>  
+        <PmtTpInf>
+          <SvcLvl>
+            <Cd>SEPA</Cd>
+          </SvcLvl>
+        </PmtTpInf>                                                 
+        <ReqdExctnDt>1999-01-01</ReqdExctnDt>                                  
+        <Dbtr>                                                                 
+          <Nm>Kousal-Eins, Josef</Nm>           
+        </Dbtr>                                                            
+        <DbtrAcct>                                                         
+          <Id>                                                             
+            <IBAN>DE45940594210000392506</IBAN>                            
+          </Id>                                                            
+        </DbtrAcct>                                                        
+        <DbtrAgt>                                                          
+          <FinInstnId>                                                     
+            <BIC>TESTDETT421</BIC>                                         
+          </FinInstnId>                                                    
+        </DbtrAgt>                                                         
+        <ChrgBr>SLEV</ChrgBr>                                              
+        <CdtTrfTxInf>                                                      
+          <PmtId>                                                          
+            <EndToEndId>NOTPROVIDED</EndToEndId>                           
+          </PmtId>                                                         
+          <Amt>                                                       
+            <InstdAmt Ccy="EUR">1005.00</InstdAmt>                       
+          </Amt>                                                      
+          <Cdtr>                                                      
+          <Nm>Kousal-Drei, Josef</Nm>                                      
+          </Cdtr>                                                     
+          <CdtrAcct>
+             <Id>                                                      
+              <IBAN>DE91940594210000431254</IBAN>                     
+            </Id>                                                     
+          </CdtrAcct>         
+          <RmtInf>                                                    
+            <Ustrd>Einzeluberwiesung</Ustrd>                                
+          </RmtInf>                                                   
+        </CdtTrfTxInf>                                                
+      </PmtInf>                                                       
+    </CstmrCdtTrfInitn>                                               
+ </Document>
