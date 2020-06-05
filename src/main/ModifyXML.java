@@ -24,10 +24,11 @@ public class ModifyXML {
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.parse(file);
 
-        Node creditoraccount = doc.getElementsByTagName("IBAN").item(0);
+        Node creditoraccount = doc.getElementsByTagName("CdtrAcct").item(0);
 
         NodeList list = creditoraccount.getChildNodes();
         System.out.println(list.toString());
+
         for (int i=0;i<list.getLength();i++)
         {
             Node node = list.item(i);
@@ -37,7 +38,7 @@ public class ModifyXML {
                 if("IBAN".equals(element.getNodeName())) {
                     element.setTextContent(input);
                     System.out.println("Content has been correctly modified");
-                    element.getTextContent();
+                    System.out.println(element.getTextContent());
                 }
             }
         }
